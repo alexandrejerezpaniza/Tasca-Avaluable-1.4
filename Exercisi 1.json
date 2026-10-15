@@ -1,0 +1,72 @@
+{
+  "factura": {
+    "numero_factura": 1,
+    "data": "21-10-2022",
+    "numero_comanda": 1,
+    "tipus_pagament": "efectiu",
+    "empresa": {
+      "nom": "Empresa Fictícia",
+      "direccio": {
+        "carrer": "Carrer Desconegut",
+        "portal": 1,
+        "localitat": "Palma",
+        "codi_postal": "07001"
+      },
+      "cif": "Q2826000",
+      "telefon": 971123456,
+      "fax": 971987654
+    },
+    "client": {
+      "numero_client": 1,
+      "nom": "Carles",
+      "cognoms": "Canals Gozálvez",
+      "direccio_enviament": {
+        "carrer": "Carrer Major",
+        "portal": 1,
+        "localitat": "Inca",
+        "codi_postal": "07300",
+        "provincia": "Illes Balears"
+      }
+    },
+    "objectes_facturats": [
+      {
+        "referencia": "MII001F",
+        "descripcio": "MICRO PENTIUM IV 3000MHZ",
+        "quantitat": 1,
+        "preu": "250.00€",
+        "iva": "16%",
+        "import": "266.80€"
+      },
+      {
+        "referencia": "MB003",
+        "descripcio": "PLACA BASE QDI P4",
+        "quantitat": 1,
+        "preu": "180.00€",
+        "iva": "16%",
+        "import": "208.80€"
+      },
+      {
+        "referencia": "MED876",
+        "descripcio": "DIMM DDR 512MB 3200",
+        "quantitat": 2,
+        "preu": "40€",
+        "iva": "16%",
+        "import": "92.80€"
+      },
+      {
+        "referencia": "HD250G",
+        "descripcio": "DISC DUR 250GB S-ATA 7200",
+        "quantitat": 4,
+        "preu": "120€",
+        "iva": "16%",
+        "import": "556.80€"
+      }
+    ],
+    "total": {
+      "preu_base": "990€",
+      "iva": "16%",
+      "total_iva": "155.20€",
+      "total_factura": "1145.20€"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<factura numero_factura="1">
+    <data>21-10-2022</data>
+    <numero_comanda>1</numero_comanda>
+    <tipus_pagament>efectiu</tipus_pagament>
+    <empresa>
+        <nom>Empresa Fictícia</nom>
+        <direccio>
+            <carrer>Carrer Desconegut</carrer>
+            <portal>1</portal>
+            <localitat>Palma</localitat>
+            <codi_postal>07001</codi_postal>
+        </direccio>
+        <cif>Q2826000</cif>
+        <telefon>971123456</telefon>
+        <fax>971987654</fax>
+    </empresa>
+    <client numero_client="1">
+        <numero_client>1</numero_client>
+        <nom>Carles</nom>
+        <cognoms>Canals Gozálvez</cognoms>
+        <direccio_enviament>
+            <carrer>Carrer Major</carrer>
+            <portal>1</portal>
+            <localitat>Inca</localitat>
+            <codi_postal>07300</codi_postal>
+            <provincia>Illes Balears</provincia>
+        </direccio_enviament>
+    </client>
+    <objectes_facturats>
+        <objecte referencia="MII001F">
+            <descripcio>MICRO PENTIUM IV 3000MHZ</descripcio>
+            <quantitat>1</quantitat>
+            <preu>250.00€</preu>
+            <iva>16%</iva>
+            <import>266.80€</import>
+        </objecte>
+        <objecte referencia="MB003">
+            <descripcio>PLACA BASE QDI P4</descripcio>
+            <quantitat>1</quantitat>
+            <preu>180.00€</preu>
+            <iva>16%</iva>
+            <import>208.80€</import>
+        </objecte>
+        <objecte referencia="MED876">
+            <descripcio>DIMM DDR 512MB 3200</descripcio>
+            <quantitat>2</quantitat>
+            <preu>40€</preu>
+            <iva>16%</iva>
+            <import>92.80€</import>
+        </objecte>
+        <objecte referencia="HD250G">
+            <descripcio>DISC DUR 250GB S-ATA 7200</descripcio>
+            <quantitat>4</quantitat>
+            <preu>120€</preu>
+            <iva>16%</iva>
+            <import>556.80€</import>
+        </objecte>
+    </objectes_facturats>
+    <total>
+        <preu_base>990€</preu_base>
+        <iva>16%</iva>
+        <total_iva>155.20€</total_iva>
+        <total_factura>1145.20€</total_factura>
+    </total>
+</factura>
